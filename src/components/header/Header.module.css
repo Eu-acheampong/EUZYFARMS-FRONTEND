@@ -1,0 +1,70 @@
+.header {
+  height: 90vh;
+  width: 100%;
+  background-image: url("https://p0.pxfuel.com/preview/847/329/280/turkey-angry-animal-beak.jpg");
+  /* background-color: blue; */
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 100px;
+}
+
+.overlay {
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+.header_text {
+  height: 50vh;
+  padding-top: 4rem;
+  color: white;
+  width: 20rem;
+  text-align: left;
+  padding-left: 30vw;
+}
+
+.header_h1 {
+  margin-bottom: 10px;
+}
+.header_p {
+  margin-bottom: 10px;
+}
+
+.header_text > button {
+  background-color: white;
+  border: none;
+  color: green;
+  padding: 12px 17px;
+  border-radius: 5px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  height: 47vh;
+  width: 52rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header_card {
+  height: 40vh;
+  width: 30rem;
+  background-color: white;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.514);
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 2rem;
+  color: green;
+  margin-right: 30px;
+}
+
+.header_card1 {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 1rem;
+  color: green;
+}

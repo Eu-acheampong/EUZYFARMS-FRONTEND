@@ -1,0 +1,33 @@
+.section_background {
+  height: 90vh;
+  width: 100%;
+  background-image: url("https://p0.pxfuel.com/preview/847/329/280/turkey-angry-animal-beak.jpg");
+  /* background-color: blue; */
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 100px;
+}
+
+
+.section_container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  margin: 0px 100px;
+}
+
+.section_top {
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section_card {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+}
